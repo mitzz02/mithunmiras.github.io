@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'rageroad';
+  src: url(road_rage/Road_Rage.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensuring all elements adhere to box model */
+}
+
+.main {
+  width: 100%;
+  background-image: url(4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 109vh;
+}
+
+.navbar {
+  width: 100%; /* Adjusted to full width */
+  background-color: transparent;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Added padding to the sides */
+}
+
+.icon {
+  width: 200px;
+  height: 70px;
+}
+
+.logo {
+  color: purple;
+  font-size: 45px;
+  font-family: 'rageroad';
+  padding-left: 20px;
+}
+
+.menu {
+  flex: 1;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 30px;
+  font-size: 35px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: beige;
+  font-family: 'rageroad';
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: purple;
+}
+
+.search {
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+
+.srch{
+  font-family: 'rageroad';
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid purple;
+  margin-top: 1px;
+  color: white;
+  border-right: purple;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;  
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid purple;
+  margin-top: 1px;
+  color: white;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: Georgia;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: 'Times New Roman';
+  letter-spacing: 1.2px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.content h1{
+   font-family: 'Times New Roman';
+   font-size: 50px;
+   padding-left: 20px;
+   margin-top: 9%;
+   letter-spacing: 2px;
+}
+
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background: whitesmoke;
+  border: none;
+  margin-bottom: 10px;
+  margin: left 20px;
+  font: size 18px;
+  border-radius: 10px;
+  cursor: pointer
+  
+}
+
+.content .cn a{
+  text-decoration: none;
+  color: black;
+  transition: .3s ease;
+}
+
+.cn:hover{
+  background-color: purple;
+}
+
+.conte {
+  position: absolute;
+  top: 50%;
+  right: 13%; /* Adjust this value to move the image further right */
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.conte img {
+  width: 300px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio *//
+}
